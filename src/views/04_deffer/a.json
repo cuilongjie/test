@@ -1,0 +1,76 @@
+{
+    "status": 200,
+    "data": {
+      "appEnvInfoHistoryListOne": [
+        {
+          "environmentType": "UAT",
+          "appEnvInfoHistoryListOne": [
+            {
+              "accessPortalDatabaseAddress": " 111",
+              "difference": false
+            },
+            {
+              "accessPortalDatabaseAddress": " 2222",
+              "difference": false
+            }
+          ],
+          "difference": false
+        },
+      
+        {
+          "environmentType": "开发",
+          "appEnvInfoHistoryListOne": [
+            {
+              "accessPortalDatabaseAddress": "111",
+              "difference": false
+            },
+            {
+              "accessPortalDatabaseAddress": "2222",
+              "difference": false
+            },
+            {
+              "accessPortalDatabaseAddress": "333",
+              "difference": false
+            },
+            {
+              "accessPortalDatabaseAddress": "444",
+              "difference": false
+            }
+          ],
+          "difference": false
+        }
+     
+      ],
+      "appEnvInfoHistoryListTwo": [
+        {
+          "environmentType": "开发",
+          "appEnvInfoHistoryListTwo": [
+            {
+              "accessPortalDatabaseAddress": " 主要访问入口2数据库地址2",
+              "difference": false
+            },
+            {
+              "accessPortalDatabaseAddress": "主要访问入口啊数据库地址啊",
+              "difference": false
+            }
+          ],
+          "difference": false
+        },
+        {
+            "environmentType": "UAT",
+            "appEnvInfoHistoryListTwo": [
+              {
+                "accessPortalDatabaseAddress": " UAT222",
+                "difference": false
+              },
+              {
+                "accessPortalDatabaseAddress": "UAT22222",
+                "difference": false
+              }
+            ],
+            "difference": false
+          }
+      ],
+      "difference": false
+    }
+  }

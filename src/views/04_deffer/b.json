@@ -1,0 +1,66 @@
+{
+    "status": 200,
+    "data": {
+      "id": "8625cc8a85c94b9e96a1f184ff274c74",
+      "categoryId": "5b2cc1f826de49a18dd5dc565ec8385a",
+      "pid": "0",
+      "name": "环境类型",
+      "dataCode": "environmentType",
+      "des": "",
+      "isEnable": true,
+      "dataValue": "",
+      "sortNo": 1,
+      "dtCreated": "2021-04-28 01:47",
+      "dtModified": "2021-06-29 01:26",
+      "disable": false,
+      "isDel": 0,
+      "dataType": "THE_DICT",
+      "dictValues": [
+        {
+          "id": "411c5c2244b74fb4a54878ff44207b58",
+          "pid": "8625cc8a85c94b9e96a1f184ff274c74",
+          "name": "UAT",
+          "dataCode": "-1602989074458",
+          "des": "",
+          "isEnable": true,
+          "dataValue": "UAT",
+          "sortNo": 2,
+          "dtCreated": "2021-05-13 10:59",
+          "dtModified": "2021-05-13 10:59",
+          "disable": false,
+          "isDel": 0,
+          "dataType": "THE_DICT_VALUE"
+        },
+        {
+          "id": "534e4b2117ef4ede995e844c48358f96",
+          "pid": "8625cc8a85c94b9e96a1f184ff274c74",
+          "name": "SIT",
+          "dataCode": "-1602989074123",
+          "des": "",
+          "isEnable": true,
+          "dataValue": "SIT",
+          "sortNo": 1,
+          "dtCreated": "2021-05-13 10:59",
+          "dtModified": "2021-05-13 10:59",
+          "disable": false,
+          "isDel": 0,
+          "dataType": "THE_DICT_VALUE"
+        },
+        {
+          "id": "e99ab5eeede44a4a818abd7138e47dde",
+          "pid": "8625cc8a85c94b9e96a1f184ff274c74",
+          "name": "开发",
+          "dataCode": "-1602989074394",
+          "des": "",
+          "isEnable": true,
+          "dataValue": "开发",
+          "sortNo": 3,
+          "dtCreated": "2021-05-13 10:59",
+          "dtModified": "2021-05-13 10:59",
+          "disable": false,
+          "isDel": 0,
+          "dataType": "THE_DICT_VALUE"
+        }
+      ]
+    }
+  }

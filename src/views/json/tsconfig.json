@@ -1,0 +1,1156 @@
+{
+  "status": 200,
+  "message": "success",
+  "data": {
+    "userInfo": {
+      "id": "admin",
+      "code": "admin",
+      "pwd": null,
+      "name": "超级管理员",
+      "orgId": null,
+      "deptId": null,
+      "fsysId": null,
+      "ftype": "3",
+      "orgCode": null,
+      "locked": 0,
+      "show": null,
+      "empNo": null,
+      "expireTime": null,
+      "expireStatus": null,
+      "temporaryStatus": null
+    },
+    "state": 20101,
+    "accessToken": "eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTYyNjkyMTc4OH0.SLOWYmufMk3_4PwR2NSWHv0kLeB3xfYa7X8NbDZhj06KdxoDiYAFV-zNROFsQPEzd0N-ug9HuNCFfF4z-O0BLelmViwQ2mwhFjEsnYA1S7fSeHhYaF5y-fWZJuX2z063CZoGfHoFB0y4fZlK0B4v4oTSvkE8FtcYPEa6aMeQTI0",
+    "menuTree": [
+      {
+        "id": "6ff22d39330e4639a74f7aa2608d27ca",
+        "parentId": "-1",
+        "code": "assetManagement",
+        "title": "资产管理",
+        "icon": "new-page",
+        "order": 0,
+        "href": "assetManagement",
+        "children": [
+          {
+            "id": "261dc399b39f46119597d6319d3478a2",
+            "parentId": "6ff22d39330e4639a74f7aa2608d27ca",
+            "code": "interface",
+            "title": "接口管理",
+            "icon": "stack-line",
+            "order": 999,
+            "href": null,
+            "children": [
+              {
+                "id": "2677360457e2c3e3d8b116a6aa14c183",
+                "parentId": "261dc399b39f46119597d6319d3478a2",
+                "code": "interfaceInformation",
+                "title": "列表详情",
+                "icon": " ",
+                "order": 999,
+                "href": null,
+                "children": null,
+                "actions": [
+                  {
+                    "id": "699d49314ef8f37209b07fcb74d3947b",
+                    "code": "interface_interfaceInformation:interfaceDetailDel",
+                    "name": "删除",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "e129dc93bc2970b60db516fb77dfdfa6",
+                    "code": "interface_interfaceInformation:interfaceDetailEdit",
+                    "name": "编辑",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "6e27ac998f9f6888e666986e3d6af23b",
+                    "code": "interface_interfaceInformation:interfaceDetailSub",
+                    "name": "订阅",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "86d8b256321f15f6bc6748e335b1302c",
+                    "code": "interface_interfaceInformation:interfaceExplainEdit",
+                    "name": "接口说明编辑",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "85749125e01c105a37941451871c35a7",
+                    "code": "interface_interfaceInformation:interfaceExplainFile",
+                    "name": "上传接口说明文档",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "d56f985a3a44c2530b3cf566af5ad9ec",
+                    "code": "interface_interfaceInformation:setInterfaceModule",
+                    "name": "设为接口模板",
+                    "block": null,
+                    "routes": null
+                  }
+                ],
+                "routes": null,
+                "menuType": "authority"
+              },
+              {
+                "id": "e6fd792dd1fe4080a798eb619cd0460a",
+                "parentId": "261dc399b39f46119597d6319d3478a2",
+                "code": "module",
+                "title": "接口模板",
+                "icon": " ",
+                "order": 1001,
+                "href": null,
+                "children": null,
+                "actions": [
+                  {
+                    "id": "1382413f8af1409ab0197c3e5d95ebb4",
+                    "code": "interface_module:add",
+                    "name": "录入",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "ccfb81df1a9a46a7a402787f4103ff38",
+                    "code": "interface_module:del",
+                    "name": "删除",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "f45485918913447da2df260acad5c480",
+                    "code": "interface_module:edit",
+                    "name": "修改",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "45a5024a260f4563afbe80867abbd3c0",
+                    "code": "interface_module:query",
+                    "name": "查询",
+                    "block": null,
+                    "routes": null
+                  }
+                ],
+                "routes": null,
+                "menuType": "menu"
+              },
+              {
+                "id": "055106fecccb40cdaa4cd26e437cfc54",
+                "parentId": "261dc399b39f46119597d6319d3478a2",
+                "code": "fieldStandard",
+                "title": "字段标准",
+                "icon": " ",
+                "order": 10,
+                "href": null,
+                "children": null,
+                "actions": [
+                  {
+                    "id": "00051dd219de41259fc167f38aaa4271",
+                    "code": "interface_fieldStandard:add",
+                    "name": "录入",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "9388efafc44945b1ba6d7663539e496b",
+                    "code": "interface_fieldStandard:del",
+                    "name": "删除",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "609cabd70a9345e58e687246c7017cbb",
+                    "code": "interface_fieldStandard:edit",
+                    "name": "修改",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "85b7e646682d4111b3899288f7c165c5",
+                    "code": "interface_fieldStandard:query",
+                    "name": "查询",
+                    "block": null,
+                    "routes": null
+                  }
+                ],
+                "routes": null,
+                "menuType": "menu"
+              },
+              {
+                "id": "fbbeec91b6f74d21ab40b8243140cb0f",
+                "parentId": "261dc399b39f46119597d6319d3478a2",
+                "code": "interfaceList",
+                "title": "接口列表",
+                "icon": " ",
+                "order": 999,
+                "href": null,
+                "children": null,
+                "actions": [
+                  {
+                    "id": "8b3fea995d5e45bba3571aa124b1be0f",
+                    "code": "interface_interfaceList:add",
+                    "name": "录入",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "452724ccad8e4295ab97e807e8299c85",
+                    "code": "interface_interfaceList:del",
+                    "name": "删除",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "12e154d9697a48fa9e15ec382543ce51",
+                    "code": "interface_interfaceList:edit",
+                    "name": "修改",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "15937e37ec8d465c8b6dcd32b9f72dd0",
+                    "code": "interface_interfaceList:query",
+                    "name": "查询",
+                    "block": null,
+                    "routes": null
+                  }
+                ],
+                "routes": null,
+                "menuType": "menu"
+              }
+            ],
+            "actions": null,
+            "routes": null,
+            "menuType": "menu"
+          },
+          {
+            "id": "39a6d828d9be4ed3b297de98290d25a4",
+            "parentId": "6ff22d39330e4639a74f7aa2608d27ca",
+            "code": "applicationManagement",
+            "title": "应用管理",
+            "icon": "new-page",
+            "order": 0,
+            "href": "applicationManagement",
+            "children": [
+              {
+                "id": "146eb4b6faffbe1f2a1e285a9c10ac2c",
+                "parentId": "39a6d828d9be4ed3b297de98290d25a4",
+                "code": "details",
+                "title": "应用详情",
+                "icon": " ",
+                "order": 999,
+                "href": null,
+                "children": null,
+                "actions": [
+                  {
+                    "id": "20959bfc114efc5958017ec4e872784d",
+                    "code": "applicationManagement_details:appSub",
+                    "name": "应用订阅",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "df9d9cc9b9212be036aed28fd09d812b",
+                    "code": "applicationManagement_details:area",
+                    "name": "维护模块领域",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "af274f2ac93140b98d52784b6968ddad",
+                    "code": "applicationManagement_details:associationList",
+                    "name": "模块关联接口列表",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "2e769383d5b8f267a6c67fc4f10f1d5d",
+                    "code": "applicationManagement_details:editLabel",
+                    "name": "模块编辑标签",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "21f9d45772dd839440ff43852cdb2ce3",
+                    "code": "applicationManagement_details:export",
+                    "name": "模块导出",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "38e5cc97d35241e00c8e4c6f5772ccd6",
+                    "code": "applicationManagement_details:moduleSub",
+                    "name": "模块订阅",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "a9f3163a0507e2494b1ea404260062de",
+                    "code": "applicationManagement_details:query",
+                    "name": "模块查询",
+                    "block": null,
+                    "routes": null
+                  }
+                ],
+                "routes": null,
+                "menuType": "authority"
+              },
+              {
+                "id": "7054ea8046aadd907ee4b9da390c060a",
+                "parentId": "39a6d828d9be4ed3b297de98290d25a4",
+                "code": "parampage8aaa83dc783de8d00179081e84f10088",
+                "title": "技术基线列表",
+                "icon": "new-page",
+                "order": 6,
+                "href": "8aaa83dc783de8d00179081e84f10088",
+                "children": null,
+                "actions": [
+                  {
+                    "id": "8273b5faed3d50ed237cf2ec1de79ca7",
+                    "code": "8aaa83dc783de8d00179081e84f10088:bianji",
+                    "name": "编辑",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "0cd6a5868b7b455a7eb19e255d8603d3",
+                    "code": "8aaa83dc783de8d00179081e84f10088:daochu",
+                    "name": "导出",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "d88ba3158cc978f40e16993130dfe892",
+                    "code": "8aaa83dc783de8d00179081e84f10088:daoru",
+                    "name": "导入",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "1f529e28e713c5098df2b2b668c02b67",
+                    "code": "8aaa83dc783de8d00179081e84f10088:guanlianyingyongliebiao",
+                    "name": "关联应用列表",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "26320969859f721290db26f973d3b19c",
+                    "code": "8aaa83dc783de8d00179081e84f10088:lurujishujixian",
+                    "name": "录入技术基线",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "55fa417e5ccae13e04941a962bb9a582",
+                    "code": "8aaa83dc783de8d00179081e84f10088:qiyong",
+                    "name": "启用",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "67f489555e8c4dfd93d5203e2120f191",
+                    "code": "8aaa83dc783de8d00179081e84f10088:query",
+                    "name": "查看",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "8b63d63a54cb77abc3aa379c1171f4c2",
+                    "code": "8aaa83dc783de8d00179081e84f10088:shanchu",
+                    "name": "删除",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "ef986f22352bee9d966beef7464fb3d3",
+                    "code": "8aaa83dc783de8d00179081e84f10088:tingyong",
+                    "name": "停用",
+                    "block": null,
+                    "routes": null
+                  }
+                ],
+                "routes": null,
+                "menuType": "menu"
+              },
+              {
+                "id": "88ed4341aa434c05bc271f4b6febdcc8",
+                "parentId": "39a6d828d9be4ed3b297de98290d25a4",
+                "code": "parampage8aaa83e477be3aa10177be9c30b10003",
+                "title": "yt-应用-环境信息-参数应用",
+                "icon": "new-page",
+                "order": 4,
+                "href": "8aaa83e477be3aa10177be9c30b10003",
+                "children": null,
+                "actions": [
+                  {
+                    "id": "02661906391d48b486439dae010b8605",
+                    "code": "8aaa83e477be3aa10177be9c30b10003:query",
+                    "name": "查看",
+                    "block": null,
+                    "routes": null
+                  }
+                ],
+                "routes": null,
+                "menuType": "menu"
+              },
+              {
+                "id": "c298f7c9ee3f4c04aba8386c17b7de83",
+                "parentId": "39a6d828d9be4ed3b297de98290d25a4",
+                "code": "parampage8aaa836c79785c090179787839880006",
+                "title": "应用管理-应用信息编辑-编辑-QPS（第一次迭代20210508）",
+                "icon": "new-page",
+                "order": 7,
+                "href": "8aaa836c79785c090179787839880006",
+                "children": null,
+                "actions": [
+                  {
+                    "id": "496ebbb1f5e04e03bbe689d1c69f6385",
+                    "code": "8aaa836c79785c090179787839880006:query",
+                    "name": "查看",
+                    "block": null,
+                    "routes": null
+                  }
+                ],
+                "routes": null,
+                "menuType": "menu"
+              },
+              {
+                "id": "68b70d7b9c39476db94835b534641157",
+                "parentId": "39a6d828d9be4ed3b297de98290d25a4",
+                "code": "parampage8aaa83e477be3aa10177be8d682e0000",
+                "title": "资产管理-应用列表-外部通讯方式-新增",
+                "icon": "new-page",
+                "order": 2,
+                "href": "8aaa83e477be3aa10177be8d682e0000",
+                "children": null,
+                "actions": [
+                  {
+                    "id": "0ef80c50fd07444098cb15ccc0292957",
+                    "code": "8aaa83e477be3aa10177be8d682e0000:query",
+                    "name": "查看",
+                    "block": null,
+                    "routes": null
+                  }
+                ],
+                "routes": null,
+                "menuType": "menu"
+              },
+              {
+                "id": "d481fbb6b4fa4f1ba05c978de7864eef",
+                "parentId": "39a6d828d9be4ed3b297de98290d25a4",
+                "code": "parampage8aaa83f577bf08830177d333994d0044",
+                "title": "应用信息录入",
+                "icon": "new-page",
+                "order": 8,
+                "href": "8aaa83f577bf08830177d333994d0044",
+                "children": null,
+                "actions": [
+                  {
+                    "id": "6740d8a4a1cd4fc9b420c4dbc492122e",
+                    "code": "8aaa83f577bf08830177d333994d0044:query",
+                    "name": "查看",
+                    "block": null,
+                    "routes": null
+                  }
+                ],
+                "routes": null,
+                "menuType": "menu"
+              },
+              {
+                "id": "79f9581fd65c4d3db2283bda7a4fccdf",
+                "parentId": "39a6d828d9be4ed3b297de98290d25a4",
+                "code": "parampage8aaa836c79785c090179787871910008",
+                "title": "应用管理-应用信息录入-0508",
+                "icon": "new-page",
+                "order": 3,
+                "href": "8aaa836c79785c090179787871910008",
+                "children": null,
+                "actions": [
+                  {
+                    "id": "2205a624e59344ba837472bb3a2ffc60",
+                    "code": "8aaa836c79785c090179787871910008:query",
+                    "name": "查看",
+                    "block": null,
+                    "routes": null
+                  }
+                ],
+                "routes": null,
+                "menuType": "menu"
+              },
+              {
+                "id": "b8c29006e18ae0b29d1b97dfd4bcab45",
+                "parentId": "39a6d828d9be4ed3b297de98290d25a4",
+                "code": "parampage8aaa83dc783de8d00178485fc02d0014",
+                "title": "应用列表",
+                "icon": "new-page",
+                "order": 5,
+                "href": "8aaa83dc783de8d00178485fc02d0014",
+                "children": null,
+                "actions": [
+                  {
+                    "id": "6e5c60f5a6488f2fb07428cb205597d3",
+                    "code": "8aaa83dc783de8d00178485fc02d0014:bianji",
+                    "name": "编辑",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "d69565c73c6be22c4bbfecc44e5295ef",
+                    "code": "8aaa83dc783de8d00178485fc02d0014:daochu",
+                    "name": "导出",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "526336fd47820ee05398aa5679631479",
+                    "code": "8aaa83dc783de8d00178485fc02d0014:daoru",
+                    "name": "导入",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "37e4a810523648c234e7c1bc3e2ab32f",
+                    "code": "8aaa83dc783de8d00178485fc02d0014:daorulishiliebiao",
+                    "name": "导入历史列表",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "3298a13e6da8f846a7ca20ef6fc22d57",
+                    "code": "8aaa83dc783de8d00178485fc02d0014:query",
+                    "name": "查看",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "53c34a99656404356e67d1c1360f9842",
+                    "code": "8aaa83dc783de8d00178485fc02d0014:shanchu",
+                    "name": "删除",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "7e6ede7055f69d424ff14f10f2f06e13",
+                    "code": "8aaa83dc783de8d00178485fc02d0014:xiangqingzhanshi",
+                    "name": "详情展示",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "cdd43cd2c814397cf79ad26c9f5e1f12",
+                    "code": "8aaa83dc783de8d00178485fc02d0014:yingyongluru",
+                    "name": "应用录入",
+                    "block": null,
+                    "routes": null
+                  }
+                ],
+                "routes": null,
+                "menuType": "menu"
+              },
+              {
+                "id": "fd6259ee3f494d6dbb965c381b99fa64",
+                "parentId": "39a6d828d9be4ed3b297de98290d25a4",
+                "code": "parampage8aaa83dc783de8d00178861298ad003e",
+                "title": "应用列表导入历史",
+                "icon": "new-page",
+                "order": 9,
+                "href": "8aaa83dc783de8d00178861298ad003e",
+                "children": null,
+                "actions": [
+                  {
+                    "id": "aa7417b460954f2bad561f2c8b7cc883",
+                    "code": "8aaa83dc783de8d00178861298ad003e:query",
+                    "name": "查看",
+                    "block": null,
+                    "routes": null
+                  }
+                ],
+                "routes": null,
+                "menuType": "menu"
+              },
+              {
+                "id": "2db4ab78161b42d6a962b1d5c40d0ccd",
+                "parentId": "39a6d828d9be4ed3b297de98290d25a4",
+                "code": "parampage8aaa83e477be3aa10177bebd7fbd0006",
+                "title": "yt-应用-环境信息-自定义",
+                "icon": "new-page",
+                "order": 1,
+                "href": "8aaa83e477be3aa10177bebd7fbd0006",
+                "children": null,
+                "actions": [
+                  {
+                    "id": "a337c15ecd5c4172bddd7e7028e57fc3",
+                    "code": "8aaa83e477be3aa10177bebd7fbd0006:query",
+                    "name": "查看",
+                    "block": null,
+                    "routes": null
+                  }
+                ],
+                "routes": null,
+                "menuType": "menu"
+              }
+            ],
+            "actions": null,
+            "routes": null,
+            "menuType": "menu"
+          },
+          {
+            "id": "5b99527785374e859c57696a2732a053",
+            "parentId": "6ff22d39330e4639a74f7aa2608d27ca",
+            "code": "assetView",
+            "title": "资产视图",
+            "icon": "new-page",
+            "order": 0,
+            "href": "assetView",
+            "children": [
+              {
+                "id": "e80e84572d224fc7b0f6c7872bb3b402",
+                "parentId": "5b99527785374e859c57696a2732a053",
+                "code": "parampage8aaa84977761f56a017767262d2d0009",
+                "title": "资产视图",
+                "icon": "new-page",
+                "order": 0,
+                "href": "8aaa84977761f56a017767262d2d0009",
+                "children": null,
+                "actions": [
+                  {
+                    "id": "c3d5daf295ae494e96721a68a69ccd74",
+                    "code": "8aaa84977761f56a017767262d2d0009:query",
+                    "name": "查看",
+                    "block": null,
+                    "routes": null
+                  }
+                ],
+                "routes": null,
+                "menuType": "menu"
+              }
+            ],
+            "actions": null,
+            "routes": null,
+            "menuType": "menu"
+          },
+          {
+            "id": "ec8196195d2f43efb6709a977994878f",
+            "parentId": "6ff22d39330e4639a74f7aa2608d27ca",
+            "code": "iteration",
+            "title": "迭代管理",
+            "icon": "new-page",
+            "order": 0,
+            "href": "iteration",
+            "children": [
+              {
+                "id": "6d2fb337341f46009af8811b480df49d",
+                "parentId": "ec8196195d2f43efb6709a977994878f",
+                "code": "parampage8aaa84977761f56a01776be1b38a0020",
+                "title": "需求",
+                "icon": "new-page",
+                "order": 0,
+                "href": "8aaa84977761f56a01776be1b38a0020",
+                "children": null,
+                "actions": [
+                  {
+                    "id": "4b4c78db3e07408da11e1f03e40eea73",
+                    "code": "8aaa84977761f56a01776be1b38a0020:query",
+                    "name": "查看",
+                    "block": null,
+                    "routes": null
+                  }
+                ],
+                "routes": null,
+                "menuType": "menu"
+              }
+            ],
+            "actions": null,
+            "routes": null,
+            "menuType": "menu"
+          }
+        ],
+        "actions": null,
+        "routes": null,
+        "menuType": "menu"
+      },
+      {
+        "id": "5a7a856e61f54c7e8587c34351e30214",
+        "parentId": "-1",
+        "code": "labelManagement",
+        "title": "标签管理",
+        "icon": "new-page",
+        "order": 0,
+        "href": "labelManagement",
+        "children": [
+          {
+            "id": "6a87fa006d48a3172126f13d6eaa18a3",
+            "parentId": "5a7a856e61f54c7e8587c34351e30214",
+            "code": "parampage8aaa8195794ad7fb0179551b82570008",
+            "title": "标签列表",
+            "icon": "new-page",
+            "order": 1,
+            "href": "8aaa8195794ad7fb0179551b82570008",
+            "children": null,
+            "actions": [
+              {
+                "id": "81a59ef150b3261ad4cf3b3fbadc098b",
+                "code": "8aaa8195794ad7fb0179551b82570008:bianji",
+                "name": "编辑",
+                "block": null,
+                "routes": null
+              },
+              {
+                "id": "5690921734bd318ee0d1e4633a58e042",
+                "code": "8aaa8195794ad7fb0179551b82570008:hebingbiaoqian",
+                "name": "合并标签",
+                "block": null,
+                "routes": null
+              },
+              {
+                "id": "ac14ba0712414679b72ad7661ff46c13",
+                "code": "8aaa8195794ad7fb0179551b82570008:query",
+                "name": "查看",
+                "block": null,
+                "routes": null
+              },
+              {
+                "id": "aa1ebc41a130d88335ca045117f478f5",
+                "code": "8aaa8195794ad7fb0179551b82570008:shanchu",
+                "name": "删除",
+                "block": null,
+                "routes": null
+              },
+              {
+                "id": "ba91d0afca9a730b9e2874d0f43b3f5b",
+                "code": "8aaa8195794ad7fb0179551b82570008:xinjianbiaoqian",
+                "name": "新建标签",
+                "block": null,
+                "routes": null
+              }
+            ],
+            "routes": null,
+            "menuType": "menu"
+          },
+          {
+            "id": "e38f334cc2ff462b8b84720062fe995c",
+            "parentId": "5a7a856e61f54c7e8587c34351e30214",
+            "code": "parampage8aaa83dc783de8d00178af8a2144005f",
+            "title": "myx-标签用途-test",
+            "icon": "new-page",
+            "order": 10,
+            "href": "8aaa83dc783de8d00178af8a2144005f",
+            "children": null,
+            "actions": [
+              {
+                "id": "329b42989bf941fb8277d579d9211cb3",
+                "code": "8aaa83dc783de8d00178af8a2144005f:query",
+                "name": "查看",
+                "block": null,
+                "routes": null
+              }
+            ],
+            "routes": null,
+            "menuType": "menu"
+          },
+          {
+            "id": "64a7089d0078476aa5eee68faff9f34a",
+            "parentId": "5a7a856e61f54c7e8587c34351e30214",
+            "code": "parampage8aaa84977761f56a017766f52c950004",
+            "title": "应用组",
+            "icon": "new-page",
+            "order": 7,
+            "href": "8aaa84977761f56a017766f52c950004",
+            "children": null,
+            "actions": [
+              {
+                "id": "eb45b13adc5842c29c8452af4bc49048",
+                "code": "8aaa84977761f56a017766f52c950004:query",
+                "name": "查看",
+                "block": null,
+                "routes": null
+              }
+            ],
+            "routes": null,
+            "menuType": "menu"
+          },
+          {
+            "id": "034b74860befdfa9b890f36bedf06b47",
+            "parentId": "5a7a856e61f54c7e8587c34351e30214",
+            "code": "parampage8aaa83f577bf08830177dccc38ea005f",
+            "title": "标签用途",
+            "icon": "new-page",
+            "order": 2,
+            "href": "8aaa83f577bf08830177dccc38ea005f",
+            "children": null,
+            "actions": [
+              {
+                "id": "403a314ceb5f971efe8cce26177d4cf2",
+                "code": "8aaa83f577bf08830177dccc38ea005f:bianji",
+                "name": "编辑",
+                "block": null,
+                "routes": null
+              },
+              {
+                "id": "e2eebb56858a206690daec2876152910",
+                "code": "8aaa83f577bf08830177dccc38ea005f:chakanbiaoqianshu",
+                "name": "查看标签树",
+                "block": null,
+                "routes": null
+              },
+              {
+                "id": "c7d8ebdce9e54ec59cc2dc8db007e91e",
+                "code": "8aaa83f577bf08830177dccc38ea005f:query",
+                "name": "查看",
+                "block": null,
+                "routes": null
+              },
+              {
+                "id": "aec2fc9efffdd2b9f10681892ef45dd1",
+                "code": "8aaa83f577bf08830177dccc38ea005f:shanchu",
+                "name": "删除",
+                "block": null,
+                "routes": null
+              },
+              {
+                "id": "e56934da569685061251be28c4cb6d94",
+                "code": "8aaa83f577bf08830177dccc38ea005f:xinjianbiaoqianyongtu",
+                "name": "新建标签用途",
+                "block": null,
+                "routes": null
+              }
+            ],
+            "routes": null,
+            "menuType": "menu"
+          },
+          {
+            "id": "2394202878684568a4813a3a64fb9c90",
+            "parentId": "5a7a856e61f54c7e8587c34351e30214",
+            "code": "workbench8aaa83dc783de8d0017882683baa0036",
+            "title": "测试工作台01",
+            "icon": "new-page",
+            "order": 3,
+            "href": "8aaa83dc783de8d0017882683baa0036",
+            "children": null,
+            "actions": [
+              {
+                "id": "a6d2f6080e934caa9e42d5fb6edae083",
+                "code": "8aaa83dc783de8d0017882683baa0036:query",
+                "name": "查看",
+                "block": null,
+                "routes": null
+              }
+            ],
+            "routes": null,
+            "menuType": "menu"
+          },
+          {
+            "id": "43246f2104144c11908bc20b989bc06a",
+            "parentId": "5a7a856e61f54c7e8587c34351e30214",
+            "code": "parampage8aaa83dc783de8d0017887338bfd0048",
+            "title": "myx-数据卡",
+            "icon": "new-page",
+            "order": 4,
+            "href": "8aaa83dc783de8d0017887338bfd0048",
+            "children": null,
+            "actions": [
+              {
+                "id": "bfd2e0d165834f5993157a62593d7203",
+                "code": "8aaa83dc783de8d0017887338bfd0048:query",
+                "name": "查看",
+                "block": null,
+                "routes": null
+              }
+            ],
+            "routes": null,
+            "menuType": "menu"
+          },
+          {
+            "id": "76f9ad82405e4d68af8b547f8e696e4e",
+            "parentId": "5a7a856e61f54c7e8587c34351e30214",
+            "code": "parampage8aaa83f577bf08830177dcdf48820063",
+            "title": "标签列表bak",
+            "icon": "new-page",
+            "order": 8,
+            "href": "8aaa83f577bf08830177dcdf48820063",
+            "children": null,
+            "actions": [
+              {
+                "id": "6c9f615942704f3389d3d92b1eea0cbd",
+                "code": "8aaa83f577bf08830177dcdf48820063:query",
+                "name": "查看",
+                "block": null,
+                "routes": null
+              }
+            ],
+            "routes": null,
+            "menuType": "menu"
+          },
+          {
+            "id": "da12bdeb3222479f9c78bd8adab352d9",
+            "parentId": "5a7a856e61f54c7e8587c34351e30214",
+            "code": "parampage8aaa83dc783de8d001788c965ad7004a",
+            "title": "myx-旭日图01",
+            "icon": "new-page",
+            "order": 9,
+            "href": "8aaa83dc783de8d001788c965ad7004a",
+            "children": null,
+            "actions": [
+              {
+                "id": "9a5f8e5ad3e443ac8dda8dcbdd925a66",
+                "code": "8aaa83dc783de8d001788c965ad7004a:query",
+                "name": "查看",
+                "block": null,
+                "routes": null
+              }
+            ],
+            "routes": null,
+            "menuType": "menu"
+          },
+          {
+            "id": "5ee7b4c51a7a42dd9ee953ac542ce038",
+            "parentId": "5a7a856e61f54c7e8587c34351e30214",
+            "code": "parampage8aaa83dc783de8d00178aab7812e0057",
+            "title": "lzj_应用列表_测试",
+            "icon": "new-page",
+            "order": 6,
+            "href": "8aaa83dc783de8d00178aab7812e0057",
+            "children": null,
+            "actions": [
+              {
+                "id": "0ebf5fb8b563469ab6b8ecf9cf65d6a1",
+                "code": "8aaa83dc783de8d00178aab7812e0057:query",
+                "name": "查看",
+                "block": null,
+                "routes": null
+              }
+            ],
+            "routes": null,
+            "menuType": "menu"
+          },
+          {
+            "id": "29e06503d1f949ff88d90cec0ccd3a11",
+            "parentId": "5a7a856e61f54c7e8587c34351e30214",
+            "code": "parampage8aaa83dc783de8d00178872477180047",
+            "title": "myx-桑基图-0808",
+            "icon": "new-page",
+            "order": 5,
+            "href": "8aaa83dc783de8d00178872477180047",
+            "children": null,
+            "actions": [
+              {
+                "id": "dbd1ad97272943d783ec9d895daba5cf",
+                "code": "8aaa83dc783de8d00178872477180047:query",
+                "name": "查看",
+                "block": null,
+                "routes": null
+              }
+            ],
+            "routes": null,
+            "menuType": "menu"
+          }
+        ],
+        "actions": null,
+        "routes": null,
+        "menuType": "menu"
+      },
+      {
+        "id": "feddc37bb24106e9fe85e62cef5b3767",
+        "parentId": "-1",
+        "code": "ceshi",
+        "title": "测试",
+        "icon": "new-page",
+        "order": 0,
+        "href": "ceshi",
+        "children": [
+          {
+            "id": "4066ed8f2da3aa3088fc4ca639324457",
+            "parentId": "feddc37bb24106e9fe85e62cef5b3767",
+            "code": "parampageb9bfdffdd2074f8ca1b0b585594ee0af",
+            "title": "迭代管理-下架流程wyl",
+            "icon": "new-page",
+            "order": 0,
+            "href": "b9bfdffdd2074f8ca1b0b585594ee0af",
+            "children": null,
+            "actions": [
+              {
+                "id": "36979b8be656ef46fbfa27edf536317e",
+                "code": "b9bfdffdd2074f8ca1b0b585594ee0af:query",
+                "name": "查看",
+                "block": null,
+                "routes": null
+              }
+            ],
+            "routes": null,
+            "menuType": "menu"
+          }
+        ],
+        "actions": null,
+        "routes": null,
+        "menuType": "menu"
+      },
+      {
+        "id": "8a1be057f2214506ab6814a5440d222b",
+        "parentId": "-1",
+        "code": "processCenter",
+        "title": "流程中心",
+        "icon": "flow",
+        "order": 2,
+        "href": null,
+        "children": [
+          {
+            "id": "e648545f933048059613adc337bdddad",
+            "parentId": "8a1be057f2214506ab6814a5440d222b",
+            "code": "processConfig",
+            "title": "流程模板管理",
+            "icon": "stack-line",
+            "order": 999,
+            "href": null,
+            "children": null,
+            "actions": [
+              {
+                "id": "476f5b676b79445f9860c65578bdd753",
+                "code": "processCenter_processConfig:query",
+                "name": "查看",
+                "block": null,
+                "routes": null
+              }
+            ],
+            "routes": null,
+            "menuType": "menu"
+          },
+          {
+            "id": "bb80fb182b5b4dafac14a2834a57e6cd",
+            "parentId": "8a1be057f2214506ab6814a5440d222b",
+            "code": "historyAssignment",
+            "title": "历史任务查看",
+            "icon": "task_history",
+            "order": 1001,
+            "href": null,
+            "children": null,
+            "actions": [
+              {
+                "id": "a5a9b9fdb65c4a5aabe1cf3fd3ff8bbb",
+                "code": "processCenter_historyAssignment:query",
+                "name": "查看",
+                "block": null,
+                "routes": null
+              }
+            ],
+            "routes": null,
+            "menuType": "menu"
+          },
+          {
+            "id": "333ade5a0f974f50ba6f557af3fbf1bd",
+            "parentId": "8a1be057f2214506ab6814a5440d222b",
+            "code": "processAssignment",
+            "title": "流程任务管理",
+            "icon": "task",
+            "order": 1000,
+            "href": null,
+            "children": null,
+            "actions": [
+              {
+                "id": "0a1ed23d105a4a7b89dccbf43d8c7481",
+                "code": "processCenter_processAssignment:query",
+                "name": "查看",
+                "block": null,
+                "routes": null
+              }
+            ],
+            "routes": null,
+            "menuType": "menu"
+          },
+          {
+            "id": "f4ff5c3226d94f90948d3870cceb5093",
+            "parentId": "8a1be057f2214506ab6814a5440d222b",
+            "code": "processMessage",
+            "title": "流程信息查询",
+            "icon": "task",
+            "order": 999,
+            "href": null,
+            "children": null,
+            "actions": [
+              {
+                "id": "513e2da957284518b8e062dc8922120c",
+                "code": "processCenter_processMessage:query",
+                "name": "查看",
+                "block": null,
+                "routes": null
+              }
+            ],
+            "routes": null,
+            "menuType": "menu"
+          }
+        ],
+        "actions": null,
+        "routes": null,
+        "menuType": "menu"
+      },
+      {
+        "id": "08ef80e3a77f4a90a22ba0da3eae6100",
+        "parentId": "-1",
+        "code": "authourityManage",
+        "title": "系统管理",
+        "icon": "system",
+        "order": 1,
+        "href": null,
+        "children": [
+          {
+            "id": "e39817c47b6942d58eac1646db67ccee",
+            "parentId": "08ef80e3a77f4a90a22ba0da3eae6100",
+            "code": "authorityManage",
+            "title": "权限管理",
+            "icon": "auth",
+            "order": 1,
+            "href": null,
+            "children": [
+              {
+                "id": "4c958bc1dbc26e55a7928436436b13d9",
+                "parentId": "e39817c47b6942d58eac1646db67ccee",
+                "code": "roleManage",
+                "title": "角色管理",
+                "icon": "role",
+                "order": 999,
+                "href": null,
+                "children": null,
+                "actions": [
+                  {
+                    "id": "58bfa6d78e6fdb33bb96fd0a6f9457f3",
+                    "code": "authorityManage_roleManage:del",
+                    "name": "删除",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "1d0f871799694f44b265d3f1d5c02710",
+                    "code": "authorityManage_roleManage:edit",
+                    "name": "修改",
+                    "block": null,
+                    "routes": null
+                  },
+                  {
+                    "id": "9682022f5af8d3e71ca1a0b5c54e632d",
+                    "code": "authorityManage_roleManage:volume",
+                    "name": "批量授权",
+                    "block": null,
+                    "routes": null
+                  }
+                ],
+                "routes": null,
+                "menuType": "menu"
+              }
+            ],
+            "actions": null,
+            "routes": null,
+            "menuType": "menu"
+          }
+        ],
+        "actions": null,
+        "routes": null,
+        "menuType": "menu"
+      }
+    ],
+    "refreshToken": "eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTYyNjkyMTc4OH0.SLOWYmufMk3_4PwR2NSWHv0kLeB3xfYa7X8NbDZhj06KdxoDiYAFV-zNROFsQPEzd0N-ug9HuNCFfF4z-O0BLelmViwQ2mwhFjEsnYA1S7fSeHhYaF5y-fWZJuX2z063CZoGfHoFB0y4fZlK0B4v4oTSvkE8FtcYPEa6aMeQTI0"
+  },
+  "rel": true
+}
